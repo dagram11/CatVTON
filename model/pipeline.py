@@ -43,7 +43,7 @@ class CatVTONPipeline(DiffusionPipeline): # Inherit from DiffusionPipeline
     ):
         super().__init__() # Call to base class __init__ is good practice
 
-        self.device = device
+       
         self.weight_dtype = weight_dtype
         self.skip_safety_check = skip_safety_check
 
